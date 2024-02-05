@@ -1,0 +1,36 @@
+.footer__title{
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer__item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    gap: 1.2rem;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+.footer__item p{
+    color: black;
+}
+.footer__logo{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+.footer__logo img{
+    object-fit: cover;
+}
+
+.social__information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+
+}

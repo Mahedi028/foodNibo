@@ -1,0 +1,110 @@
+.profile__container
+{
+    width: 90%;
+    background-color: brown;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.3);
+    padding: 20px 20px;
+    margin-bottom: 15px;
+}
+
+.user__details{
+    width: 100%;
+    height: 80vh;
+    background-color: blanchedalmond;
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    padding: 10px 0px;
+}
+.user__image{
+    width: 150px;
+    height: 150px;
+    border-radius: 150px;
+    margin-bottom: 10px;
+}
+.user__details__content{
+    width: 100%;
+    height: 80vh;
+    background-color: blanchedalmond;
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user__details__item{
+    padding: 10px 10px;
+    background-color: brown;
+    border-radius: 10px;
+    margin: 5px 10px;
+    color: aliceblue;
+}
+.user__details__item h6{
+    text-align: center;
+    color:white
+}
+.edit__form{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register__form{
+    width: 100%;
+    height: 100%;
+    padding: 25px 25px;
+    /* background-color: brown; */
+}
+
+.order__table__container{
+   width: 82vw;
+   height: 90vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+
+/* .order__table__container table, thead, tr, th, td{
+    border: 1px solid black;
+    padding: 10px 10px;
+    border-radius: 10px;
+} */
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .profile__container
+{
+    width: 90%;
+    background-color: brown;
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.3);
+    padding: 20px 20px;
+}
+    .user__details__content{
+        width: 100%;
+        height: 80vh;
+        background-color: blanchedalmond;
+        box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.3);
+        border-radius: 10px;
+        padding: 20px 20px;
+        margin-top: 20px;
+    }
+    .user__image{
+        width: 120px;
+        height: 120px;
+        margin: 0% 28%;
+        border-radius: 150px;
+        margin-bottom: 10px;
+    }
+}

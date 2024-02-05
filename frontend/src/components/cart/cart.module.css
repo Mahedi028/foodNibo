@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300;1,500&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Unbounded:wght@300;400;500;600;700&display=swap');
+
+.cart__hero__title{
+    /* position: absolute; */
+    text-align: center;
+    top: 80px;
+    font-size: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.cart__hero__description{
+    /* position: absolute; */
+    text-align: center;
+    top: 170px;
+    font-size: 30px;
+}
+.cart__container{
+    width: 90%;
+    /* background-color: brown; */
+    /* position: absolute; */
+    top: 220px;
+    right: 60px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.3);
+    padding: 20px 20px;
+}
+.cart__action{
+    padding: 5px 5px;
+    border: none;
+    font-size: 30px;
+    background: none;
+    color: #eee;
+}
+
+.cart__image{
+    width: 100px;
+    height: 90px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+
+
+.order__table__container
+{
+    width: 95%;
+    max-height: calc(89%-1.6rem);
+    background-color: transparent;
+    border: none;
+    outline: none;
+    margin: .8rem auto;
+    border-radius: .6rem;
+    overflow: auto;
+    overflow: overlay;
+}
+
+.order__table__container::-webkit-scrollbar{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+.order__table__container::-webkit-scrollbar-thumb{
+    border-radius: .5rem;
+    background-color: #0004;
+    visibility: hidden;
+}
+
+.order__table__container:hover::-webkit-scrollbar-thumb{
+    visibility: visible;
+}
+
+.coupon__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.menu__name{
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.total__price{
+    text-align: center;
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .cart__hero__title{
+        position: absolute;
+        text-align: center;
+        top: 50px;
+        font-size: 30px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    .cart__hero__description{
+        position: absolute;
+        text-align: center;
+        top: 110px;
+        font-size: 20px;
+    }
+    .cart__container{
+        width: 90%;
+        /* background-color: brown; */
+        position: absolute;
+        top: 170px;
+        right: 30px;
+        border-radius: 10px;
+        box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.3);
+        padding: 20px 20px;
+    }
+    .coupon__container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+    }
+
+
+}

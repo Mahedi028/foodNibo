@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Mochiy+Pop+P+One&family=Roboto+Mono:wght@500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+
+.banner__container{
+    position: relative;
+    background-color: brown;
+}
+.banner__title{
+    position: absolute;
+    top:-560px;
+    left:150px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+
+}
+.deals{
+    position: absolute;
+    width: 45%;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 350px;
+    background-color: brown;
+    bottom: 130px;
+    left: 50px;
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+.deals ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    margin-top: 40px;
+}
+.deals ul li{
+    margin-left: 20px;
+    font-size: 25px;
+    color: #eee;
+}
+.deals_price{
+    color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+
+}
+.deals__add{
+    position: absolute;
+    left: 710px;
+    width:50px;
+    height: 50px;
+    padding: 10px 10px;
+    border-radius: 50px;
+    border: none;
+}
+.deals__add button h2{
+    font-weight: 900;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .deals{
+        position: absolute;
+        width: 70%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        align-items: center;
+        background-color: brown;
+        bottom: 400px;
+        left: 70px;
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+        border-radius: 10px;
+    }
+    .deals ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+
+    }
+    .deals__add{
+        left: 710px;
+        width:50px;
+        height: 50px;
+        padding: 10px 10px;
+        border-radius: 50px;
+        border: none;
+    }
+    .banner__title{
+        position: absolute;
+        top:-880px;
+        left:100px
+    }
+
+}
+

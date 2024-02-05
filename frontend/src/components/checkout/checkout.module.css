@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300;1,500&family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Unbounded:wght@300;400;500;600;700&display=swap');
+
+.checkout__hero__title{
+    /* position: absolute; */
+    text-align: center;
+    top: 80px;
+    font-size: 60px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.checkout__hero__description{
+    /* position: absolute; */
+    text-align: center;
+    top: 170px;
+    font-size: 30px;
+}
+
+.form__container{
+    padding: 20px 20px;
+    /* box-shadow: 5px 5px 5px rgba(0,0,0,0.5); */
+}
+.register__form{
+    width: 100%;
+    padding: 25px 25px;
+    /* background-color: brown; */
+}
+.social__login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.order__container{
+    width: 100%;
+    padding: 10px 10px;
+    /* box-shadow: 5px 5px 5px rgba(0,0,0,0.3); */
+    /* background-color: brown; */
+}
+.order__title{
+    color: #eee;
+}
+
+.checkout__container{
+    width: 90%;
+    /* background-color: brown; */
+    /* position: absolute; */
+    top: 220px;
+    right: 60px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.3);
+    padding: 10px 10px;
+}
+
+.payment__image{
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    padding: 0px 5px;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+
+}

@@ -1,0 +1,18 @@
+.order_details_container{
+    width: 100%;
+    /* background-color: brown; */
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.3);
+    padding: 20px 20px;
+    margin-bottom: 15px;
+}
+
+.items_summary{
+    width: 100%;
+    /* background-color: brown; */
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.3);
+    padding: 20px 20px;
+    margin-bottom: 15px;
+
+}

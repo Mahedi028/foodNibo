@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Mochiy+Pop+P+One&family=Roboto+Mono:wght@500;600;700&family=Roboto:wght@400;500;700&display=swap');
+
+.cart__button{
+    padding: 10px 10px;
+    background-color: crimson;
+    border: none;
+    border-radius: 10px;
+    color: #eee;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-weight: 600;
+}
+
+.button{
+    font: inherit;
+    background: #1f1f1f;
+    color: white;
+    border: 1px solid #741188;
+    font-size: 1.15rem;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: 20px 0px;
+    padding: 0.75rem 3.75rem;
+ }
+
+ .button:hover,
+ .button:active{
+     background: #741188;
+     border-color: #741188;
+ }
+
+ .button:focus{
+     outline: none;
+ }
+
+ .button:disabled,
+ .button:focus:disabled,
+ .button:hover:disabled,
+ .button:active:disabled{
+     background: #ccc;
+     border-color: #ccc;
+     color:#666666;
+     cursor: not-allowed;
+ }
